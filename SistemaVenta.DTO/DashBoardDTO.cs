@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SistemaVenta.DTO
+﻿namespace SistemaVenta.DTO
 {
     public class DashBoardDTO
     {   
@@ -14,6 +8,6 @@ namespace SistemaVenta.DTO
 
         public int TotalProductos { get; set; }
         
-        public List<VentasSemanasDTO> VentasUltimaSemana { get; set; }
+        public List<VentasSemanasDTO>? VentasUltimaSemana { get; set; }
     }
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SistemaVenta.DAL.Repositorios.Contrato;
+﻿using SistemaVenta.DAL.Repositorios.Contrato;
 using SistemaVenta.DAL.DBContext;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
@@ -73,7 +68,7 @@ namespace SistemaVenta.DAL.Repositorios
                 throw;
             }
         }
-        // NO se que hace ese ? ahi pero si algo marca error prueba quitarlo XD!!
+        
         public async Task<IQueryable<TModelo>> Consultar(Expression<Func<TModelo, bool>>? filtro = null)
         {
             try
@@ -86,13 +81,5 @@ namespace SistemaVenta.DAL.Repositorios
                 throw;
             }
         }
-
-        
-
-        
-
-        
-
-      
     }
 }

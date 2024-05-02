@@ -1,12 +1,6 @@
 ﻿using SistemaVenta.DAL.DBContext;
 using SistemaVenta.DAL.Repositorios.Contrato;
 using SistemaVenta.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SistemaVenta.DAL.Repositorios
 {

@@ -9,7 +9,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
 builder.Services.InyectarDependecias(builder.Configuration);
 
 builder.Services.AddCors(options =>
